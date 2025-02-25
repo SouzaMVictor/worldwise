@@ -1,18 +1,25 @@
 import { Link } from "react-router-dom";
+import styles from "./Homepage.module.css";
 import PageNav from "../Components/PageNav";
-import AppNav from "../Components/AppNav";
-
-function Homepage() {
+export default function Homepage() {
   return (
-    <div>
+    <main className={styles.homepage}>
       <PageNav />
-      <AppNav />
-      <h1 className="test">Homepage Worldwise</h1>
-      {/* <a href="/Pricing.jsx">Pricing</a> //> nao deve ser feito assim porque atualiza a pagina inteira */}
-      <Link to={"/app"}>Go to the app</Link>
-      {/* link component com atributo to. tem que star entre parenteses e com o slash(/) pra indiicar que é a partir do root */}
-    </div>
+      <section>
+        <h1>
+          You travel the world.
+          <br />
+          WorldWise keeps track of your adventures.
+        </h1>
+        <h2>
+          A world map that tracks your footsteps into every city you can think
+          of. Never forget your wonderful experiences, and show your friends how
+          you have wandered the world.
+        </h2>
+        <Link to="/app" className="cta">
+          Start Tracking Now
+        </Link>
+      </section>
+    </main>
   );
 }
-
-export default Homepage;

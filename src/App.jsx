@@ -3,6 +3,7 @@ import Products from "./pages/Products";
 import Pricing from "./pages/Pricing";
 import Homepage from "./pages/Homepage";
 import PageNotFound from "./pages/PageNotFound";
+import AppLayout from "./pages/AppLayout";
 
 function App() {
   //introdução a react router: diferentes url pra diferentes componentes --> ROUTES
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="pricing" element={<Pricing />} />
         <Route path="*" element={<PageNotFound />} />
+        <Route path="app" element={<AppLayout />} />
       </Routes>
     </BrowserRouter>
   );

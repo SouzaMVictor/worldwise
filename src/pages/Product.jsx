@@ -7,20 +7,17 @@ export default function Product() {
       <section>
         <img
           src="img-1.jpg"
-          alt="person with dog overlooking mountain with sunset"
+          alt="pessoa com cachorro olhando para a montanha com o pôr do sol"
         />
         <div>
-          <h2>About WorldWide.</h2>
+          <h2>Sobre a WorldWide.</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo est
-            dicta illum vero culpa cum quaerat architecto sapiente eius non
-            soluta, molestiae nihil laborum, placeat debitis, laboriosam at fuga
-            perspiciatis?
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            doloribus libero sunt expedita ratione iusto, magni, id sapiente
-            sequi officiis et.
+            Descubra o mundo como nunca antes com a WorldWide. Nosso produto
+            cataloga meticulosamente cada lugar que você visita, transformando
+            suas viagens em uma jornada perfeitamente organizada. Reviva suas
+            aventuras, aprecie suas memórias e compartilhe suas experiências com
+            entes queridos. Deixe a WorldWide ser sua companheira de confiança
+            na exploração das maravilhas do mundo, um destino de cada vez.
           </p>
         </div>
       </section>

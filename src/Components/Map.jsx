@@ -1,5 +1,6 @@
 import styles from "./Map.module.css";
 import { useNavigate, useSearchParams } from "react-router-dom";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 function Map() {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
@@ -12,7 +13,19 @@ function Map() {
       onClick={() => {
         navigate("form");
       }}
-    ></div>
+    >
+      <MapContainer center={position} zoom={13} scrollWheelZoom={false}>
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        <Marker position={position}>
+          <Popup>
+            A pretty CSS3 popup. <br /> Easily customizable.
+          </Popup>
+        </Marker>
+      </MapContainer>
+    </div>
   );
 }
 //useSearchParams é similar ao useState hook. retorna a array com o state atual e a função que da pra setar. busca o state no url.

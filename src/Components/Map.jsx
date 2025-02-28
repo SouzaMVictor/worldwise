@@ -74,7 +74,9 @@ function ChangeCenter({ position }) {
 function DetectClick() {
   const navigate = useNavigate();
 
-  useMapEvent({ click: (e) => navigate(`form`) });
+  useMapEvent({
+    click: (e) => navigate(`form?${e.latlng.lat}&lng=${e.latlng.lng}`),
+  });
 }
 //useSearchParams é similar ao useState hook. retorna a array com o state atual e a função que da pra setar. busca o state no url.
 export default Map;

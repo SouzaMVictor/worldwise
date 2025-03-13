@@ -7,7 +7,7 @@ function User() {
   const navigate = useNavigate();
   function handleClick() {
     logout();
-    navigate("/app");
+    navigate("/");
   }
 
   return (

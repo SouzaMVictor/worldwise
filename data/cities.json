@@ -59,6 +59,30 @@
         "lng": "-46.69189453125001"
       },
       "id": 98443200
+    },
+    {
+      "cityName": "Barretos",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2008-10-24T02:00:00.000Z",
+      "notes": "Festa do Peão. Sem chance de lembrar a data exata do fato, mas faz tempo",
+      "position": {
+        "lat": "-20.558224093635967",
+        "lng": "-48.569869995117195"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Ituverava",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2023-04-19T06:12:20.000Z",
+      "notes": "Família da Bia mora aqui.",
+      "position": {
+        "lat": "-20.34090486388246",
+        "lng": "-47.787866592407234"
+      },
+      "id": 98443203
     }
   ]
 }

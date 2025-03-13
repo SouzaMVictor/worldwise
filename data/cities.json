@@ -35,6 +35,42 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Albacete",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-03-13T02:57:59.544Z",
+      "notes": "new city test",
+      "position": {
+        "lat": "38.976492485539424",
+        "lng": "-1.8017578125000002"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Bni Oual",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2025-03-13T03:00:46.304Z",
+      "notes": "new city add test",
+      "position": {
+        "lat": "34.6241677899049",
+        "lng": "-5.635986328125001"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Franca",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2025-03-13T03:01:24.502Z",
+      "notes": "test add new city",
+      "position": {
+        "lat": "-20.542793305264507",
+        "lng": "-47.402572631835945"
+      },
+      "id": 98443200
     }
   ]
 }

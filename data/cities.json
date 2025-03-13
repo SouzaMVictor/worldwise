@@ -35,6 +35,42 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Franca",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2025-03-13T03:21:25.102Z",
+      "notes": "Vivo aqui!",
+      "position": {
+        "lat": "-20.535720340023474",
+        "lng": "-47.40051269531251"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Sao Joaquim da Barra",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2022-09-24T03:21:43.000Z",
+      "notes": "Viemos para o evento do Race 100200! Muito feliz.",
+      "position": {
+        "lat": "-20.584661768727585",
+        "lng": "-47.86640167236329"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Monegrillo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-03-13T04:08:46.919Z",
+      "notes": "test",
+      "position": {
+        "lat": "41.599013054830245",
+        "lng": "-0.43945312500000006"
+      },
+      "id": 98443200
     }
   ]
 }

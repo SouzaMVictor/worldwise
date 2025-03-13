@@ -13,18 +13,6 @@
       "id": 73930385
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
       "cityName": "Berlin",
       "country": "Germany",
       "emoji": "🇩🇪",
@@ -61,14 +49,14 @@
       "id": 98443199
     },
     {
-      "cityName": "Monegrillo",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-03-13T04:08:46.919Z",
-      "notes": "test",
+      "cityName": "Sao Paulo",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2025-03-13T05:01:46.449Z",
+      "notes": "eco",
       "position": {
-        "lat": "41.599013054830245",
-        "lng": "-0.43945312500000006"
+        "lat": "-23.56398712845123",
+        "lng": "-46.69189453125001"
       },
       "id": 98443200
     }

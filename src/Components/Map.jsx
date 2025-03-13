@@ -13,6 +13,7 @@ import {
 import { useEffect, useState } from "react";
 import { useCities } from "../contexts/CitiesContext";
 import { useGeolocation } from "../hooks/useGeolocation";
+import { useURLPosition } from "../hooks/userURLPosition";
 
 const flagemojiToPNG = (flag) => {
   var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt())
@@ -26,15 +27,12 @@ const flagemojiToPNG = (flag) => {
 function Map() {
   const { cities } = useCities();
   const [mapPosition, setMapPosition] = useState([40, 0]);
-  const [searchParams] = useSearchParams();
   const {
     isLoading: isLoadingPosition,
     position: geolocationPosition,
     getPosition,
   } = useGeolocation();
-
-  const mapLat = searchParams.get("lat");
-  const mapLng = searchParams.get("lng");
+  const [mapLat, mapLng] = useURLPosition();
 
   useEffect(
     function () {
@@ -94,7 +92,7 @@ function DetectClick() {
   const navigate = useNavigate();
 
   useMapEvent({
-    click: (e) => navigate(`form?${e.latlng.lat}&lng=${e.latlng.lng}`),
+    click: (e) => navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`),
   });
 }
 //useSearchParams é similar ao useState hook. retorna a array com o state atual e a função que da pra setar. busca o state no url.

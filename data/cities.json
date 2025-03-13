@@ -71,6 +71,18 @@
         "lng": "-47.402572631835945"
       },
       "id": 98443200
+    },
+    {
+      "cityName": "Pedregulho",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2025-03-13T03:05:52.745Z",
+      "notes": "test city add loading state",
+      "position": {
+        "lat": "-20.254467080673564",
+        "lng": "-47.48291015625"
+      },
+      "id": 98443201
     }
   ]
 }

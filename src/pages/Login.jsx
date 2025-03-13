@@ -2,14 +2,16 @@ import { useState } from "react";
 import styles from "./Login.module.css";
 import PageNav from "../Components/PageNav";
 import Button from "../Components/Button";
+import { useAuth } from "../contexts/FakeAuthContext";
 
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
   const [email, setEmail] = useState("jack@example.com");
   const [password, setPassword] = useState("qwerty");
-
+  const { login } = useAuth();
   function handleSubmit(e) {
     e.preventDefault();
+    if (email && password) login(email, password);
   }
 
   return (
